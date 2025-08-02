@@ -1,0 +1,28 @@
+matrix:
+u* // this a conjugate only switches the sign of all the imaginary parts.
+(u*)T transpose --> this is dennoted as (u)` (dagger)
+U(dagger) x U = I
+hermitian matrix H=H(dagger)
+
+Eigen values (streched or compressed...)
+A matrix = alpha matrix
+A is the function and alpha is the eigen values
+
+Classical computers use bits 1,0
+quantum computers qubits can be 0 or 1 at the same time
+qubits quantum bits: physically qubits are quantum particles which has two distinct states (superposition)
+|0> |1> at the same time (01) (10)
+|psi> = (alpha beta) alpha on the top representing how much the qubit is present in the |0> state, beta shows |1> state
+|0> (1 0)-> all in the alpha zero state. not exact values but only probability
+how to measure qubits:
+eq: photons are polarized in vertical and horizontal vibration of em particles in that direction
+Measuring collapses the superposition as we can only measure in 0 or 1 state and after measuring it changes to the measured state.
+prob or |psi> in 0 is |alpha^2|
+|psi> = (01) = alpha |0> + beta |1>                           //zero goes on top and 1 goes on the bottom..
+|x> this is called kets..
+|psi> qubit is represented as a point on the surface of of a sphere that is called Bloch sphere.
+the axis of the sphere are....... z axis north |0> south |1> x and y passing throught the centre or the sphere x axis |+> |->........ y axis |i> |-i>...
+the vector formed in this sphere is the |psi>
+x gate rotates 180 in the perpendicular plane.. //ly for y gate and z gate
+x matrix = [0 1][1 0] y matrix = [0 -i][i 0] z matrix = [1 0][0 -1]
+X(|0>) = ([0 1][1 0]) (1 0) = (0 1) 

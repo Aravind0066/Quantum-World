@@ -1,4 +1,4 @@
-matrix:
+Matrix:
 u* // this a conjugate only switches the sign of all the imaginary parts.
 (u*)T transpose --> this is dennoted as (u)` (dagger)
 U(dagger) x U = I
@@ -16,13 +16,20 @@ qubits quantum bits: physically qubits are quantum particles which has two disti
 |0> (1 0)-> all in the alpha zero state. not exact values but only probability
 how to measure qubits:
 eq: photons are polarized in vertical and horizontal vibration of em particles in that direction
-Measuring collapses the superposition as we can only measure in 0 or 1 state and after measuring it changes to the measured state.
+Generally we only measure 0 or 1, and dont measure alpha nd beta. Measuring collapses the superposition as we can only measure in 0 or 1 state and after measuring it changes to the measured state.
 prob or |psi> in 0 is |alpha^2|
 |psi> = (01) = alpha |0> + beta |1>                           //zero goes on top and 1 goes on the bottom..
+probability of measuring 1 is |alpha|^2 and 0 is |beta|^2        // |alpha|^2 + |beta|^2 = 1 
+
+laws of quantum mechanics ---->> when we measure something it becomes that number itself eg: |psi> become 1 or 0 depending on what we measure.
+
 |x> this is called kets..
 |psi> qubit is represented as a point on the surface of of a sphere that is called Bloch sphere.
 the axis of the sphere are....... z axis north |0> south |1> x and y passing throught the centre or the sphere x axis |+> |->........ y axis |i> |-i>...
 the vector formed in this sphere is the |psi>
+
+** Manipulation of gates:
+
 x gate rotates 180 in the perpendicular plane.. //ly for y gate and z gate
 x matrix = [0 1][1 0] y matrix = [0 -i][i 0] z matrix = [1 0][0 -1]
 X(|0>) = ([0 1][1 0]) (1 0) = (0 1) 

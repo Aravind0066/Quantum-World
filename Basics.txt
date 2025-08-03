@@ -28,7 +28,7 @@ laws of quantum mechanics ---->> when we measure something it becomes that numbe
 the axis of the sphere are....... z axis north |0> south |1> x and y passing throught the centre or the sphere x axis |+> |->........ y axis |i> |-i>...
 the vector formed in this sphere is the |psi>
 
-** Manipulation of gates:
+1.4 ** Manipulation of gates:
 
 x gate rotates 180 in the perpendicular plane.. //ly for y gate and z gate
 x matrix = [0 1][1 0] y matrix = [0 -i][i 0] z matrix = [1 0][0 -1]

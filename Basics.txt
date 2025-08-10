@@ -33,3 +33,14 @@ the vector formed in this sphere is the |psi>
 x gate rotates 180 in the perpendicular plane.. //ly for y gate and z gate
 x matrix = [0 1][1 0] y matrix = [0 -i][i 0] z matrix = [1 0][0 -1]
 X(|0>) = ([0 1][1 0]) (1 0) = (0 1) 
+
+
+phase is technically rotating the qubit in the x y  plane but dosent change the distance between the |0> or |1> the z axis
+its in the format e^ithetha (alpha |0> + beta |1>)  -->> this is global phase (multiplied to both)
+if only the beta term has a phase multiplied then it is called relative phase.
+
+the probability become |e^i thetha beta|^2.     
+
+Hadamard gate: 1/sqrt(2) [[1 1][1 -1]]
+this gate basically returns (0 + 1) *1/sqrt(2) if applied to |0>    else if applied to |1> returns (0-1) * 1/sqrt(2)
+it enables to access multiple paths simultaneouly eg equal probabily of 1/2

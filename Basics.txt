@@ -44,3 +44,6 @@ the probability become |e^i thetha beta|^2.
 Hadamard gate: 1/sqrt(2) [[1 1][1 -1]]
 this gate basically returns (0 + 1) *1/sqrt(2) if applied to |0>    else if applied to |1> returns (0-1) * 1/sqrt(2)
 it enables to access multiple paths simultaneouly eg equal probabily of 1/2
+
+
+The bells states phi+ phi-  psi+  psi- etc are examples of maximum entanglement
